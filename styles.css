@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body
+{
+	background-color: #F5F5DC;
+}
+.starter-template
+{
+	padding: 5px 0px 15px 0px;
+	margin: 80px auto;
+}
+
+.game-block
+{
+	width: 325px;
+	
+	height: 325px;
+	position: relative;
+	margin: 10px auto;
+	font-family: 'Orbitron', sans-serif;
+
+}
+.game-boxes{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px;
+	margin: 0px;
+	background-color: black;
+	border: 2px solid #A9A9A9 ;
+	border-radius: 30%;
+	overflow: hidden;
+	
+}
+
+.gamebox{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	opacity: 0.5;
+	-webkit-transition: opacity 250ms ease;
+	-moz-transition: opacity 250ms ease;
+	-ms-transition: opacity 250ms ease;
+	-o-transition: opacity 250ms ease;
+	transition: opacity 250ms ease;
+}
+.blink
+{
+	opacity: 1;
+}
+
+.click-blink {
+	opacity: 1 !important;
+}
+
+.game-boxes .red
+{
+	background-color: red;
+	top:0;
+	left:0;
+
+}
+
+
+.game-boxes .green
+{
+	background-color: green;
+	top:0;
+	right:0;
+	
+}
+
+.game-boxes .blue
+{
+	background-color: blue;
+	bottom:0;
+	left:0;
+	
+}
+
+.game-boxes .yellow
+{
+	background-color: yellow;
+	bottom:0;
+	right:0;
+	
+}
+
+.mycircle
+{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	background-color: black;
+	border-radius: 50%;
+	top:62.5px;
+	left: 62.5px;
+}
+
+.score-board
+{
+	width: 80%;
+	margin: 0 auto;	
+	text-align: center;	
+	color: white;
+	position: absolute;
+	top:10%;
+	left: 10%;
+	height: 80%;
+}
+.titles
+{
+	width: 100%;
+	position: absolute;
+	top:10%;
+	text-align: center;
+	color: #FF4500;
+}
+.levels
+{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top:70%;
+	
+
+}
+#pressme
+{
+	width: 80%;
+	height: 30px;
+	position: absolute;
+	text-align: center;
+	top:70%;
+	left: 10%;
+
+}
